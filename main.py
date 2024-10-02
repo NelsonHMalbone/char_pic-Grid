@@ -11,7 +11,9 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
-for i in range(len(grid)):
-    for j in range(len(grid[i])):
-        print(grid[i][j], end='')
+
+for x in range(len(grid)):
+    for y in range(len(grid[x])):
+        print(grid[x][y], end=' ')
+    print()
 print()
